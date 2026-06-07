@@ -113,18 +113,7 @@ else if ((arr[0][0]=='O' && arr[0][1]=='O' && arr[0][2]=='O') || (arr[1][0]=='O'
 }
     
      }
-     for(int k=0 ; k<row ; k++)
-      { 
-         for(int h=0 ; h<column ; h++)
-        {
-        
-         { 
-          cout<<arr[k][h];
-          cout<<"|";
-         }
-        }
-        cout<<endl;
-    }
+  
      cout<<"player X wins "<<count<<" times"<<endl;
      cout<<"player O wins "<<Count<<" times"<<endl;
      cout<<"enter 1 if you want to replay and zero to exit. ";
